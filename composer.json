@@ -1,0 +1,27 @@
+{
+  "name": "denniscuijpers/laravel-input",
+  "description": "Laravel Input package",
+  "homepage": "https://github.com/denniscuijpers/laravel-input",
+  "keywords": [
+    "laravel"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dennis Cuijpers",
+      "email": "dennis@redacted.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.1"
+  },
+  "require-dev": {
+    "illuminate/support": "^9.0",
+    "friendsofphp/php-cs-fixer": "^3.14"
+  },
+  "autoload": {
+    "psr-4": {
+      "DennisCuijpers\\Input\\": "src/"
+    }
+  }
+}
